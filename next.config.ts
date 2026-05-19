@@ -1,5 +1,3 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  outputFileTracingRoot: '/Users/4wind/ai/findLightPoint',
-}
+const nextConfig = {}
 export default nextConfig

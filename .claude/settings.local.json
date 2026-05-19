@@ -22,7 +22,10 @@
       "Bash(vercel *)",
       "WebFetch(domain:find-light-point.vercel.app)",
       "Bash(dig mynocode.host +short)",
-      "Bash(whois mynocode.host)"
+      "Bash(whois mynocode.host)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
