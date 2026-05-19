@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:code-complete-copy.mynocode.host)",
+      "Bash(npx create-next-app@latest *)",
+      "Bash(npm install *)",
+      "Bash(npm cache *)",
+      "Bash(brew install *)",
+      "Bash(pnpm install *)",
+      "Bash(pnpm approve-builds *)",
+      "Bash(pnpm build *)",
+      "Bash(pnpm config *)",
+      "Bash(pnpm rebuild *)",
+      "Bash(pnpm import *)",
+      "Bash(pnpm run *)",
+      "Bash(npx next *)",
+      "Bash(pnpm add *)",
+      "Bash(xxd)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(curl *)",
+      "Bash(vercel *)",
+      "WebFetch(domain:find-light-point.vercel.app)",
+      "Bash(dig mynocode.host +short)",
+      "Bash(whois mynocode.host)"
+    ]
+  }
+}
